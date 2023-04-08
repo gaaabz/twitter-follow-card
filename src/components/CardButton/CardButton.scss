@@ -1,0 +1,11 @@
+.card__follow {
+  @apply bg-gray-50 border border-white text-gray-900 text-sm font-semibold rounded-full px-4 h-8;
+
+  &--following {
+    @apply bg-transparent text-white;
+
+    &:hover {
+      @apply border-red-600 text-red-600;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.card {
+  @apply items-center px-4 py-3 grid grid-cols-[48px_auto_max-content] gap-3 max-w-full cursor-pointer hover:bg-white hover:bg-opacity-5;
+
+  &--following {
+    @apply grid-cols-[48px_auto_135px];
+  }
+
+  &__avatar {
+    @apply rounded-full h-12 w-12 object-cover object-center;
+  }
+
+  &__info {
+    @apply max-w-full overflow-hidden;
+  }
+
+  &__name {
+    @apply font-bold text-base overflow-hidden text-ellipsis whitespace-nowrap max-w-full;
+  }
+
+  &__username {
+    @apply text-gray-500 text-base;
+  }
+}
